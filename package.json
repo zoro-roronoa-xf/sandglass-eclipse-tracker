@@ -1,0 +1,24 @@
+{
+  "name": "sandglass-token-tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@coral-xyz/anchor": "^0.29.0",
+    "@pythnetwork/client": "^2.22.0",
+    "@solana/spl-token": "^0.4.6",
+    "@solana/web3.js": "^1.91.8",
+    "decimal.js": "^10.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
