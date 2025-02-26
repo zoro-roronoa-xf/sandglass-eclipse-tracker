@@ -194,7 +194,7 @@ export async function getUserTokens(connection: Connection, userWalletAddress: P
       );
     }
 
-    const ytTokenAccounts = await getUserWalletAmount(connection, userWalletAddress, market.data.tokenPtMintAddress);
+    const ytTokenAccounts = await getUserWalletAmount(connection, userWalletAddress, market.data.tokenYtMintAddress);
     if (ytTokenAccounts) {
       resultAccount = updateResultUserTokens(
         resultAccount,
@@ -208,7 +208,7 @@ export async function getUserTokens(connection: Connection, userWalletAddress: P
       );
     }
 
-    const lpTokenAccounts = await getUserWalletAmount(connection, userWalletAddress, market.data.tokenPtMintAddress);
+    const lpTokenAccounts = await getUserWalletAmount(connection, userWalletAddress, market.data.tokenLpMintAddress);
     if (lpTokenAccounts) {
       resultAccount = updateResultUserTokens(
         resultAccount,
